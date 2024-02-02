@@ -31,9 +31,8 @@ const Navbar = () => {
               </ul>
 
               <div className="nav__contact flex gap-x-6 items-center">
-                <div>
-                  <IoSearchOutline />
-                </div>
+                <IoSearchOutline />
+
                 <div>
                   <Button>Contact us</Button>
                 </div>

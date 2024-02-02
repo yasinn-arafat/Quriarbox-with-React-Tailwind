@@ -5,7 +5,19 @@ export default {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+        navbgfrom: "#FFFCF7",
+        navbgvia: "#FFFAF0",
+        navbgto: "#FFF8EB",
+        orangecolor: "#F95C19",
+        graycolor: "#817382",
+        yellowcolor: "#FFAF0F",
+      },
+    },
+    fontFamily: {
+      raleway: ["Raleway", "sans-serif"],
+    },
   },
   plugins: [],
 };

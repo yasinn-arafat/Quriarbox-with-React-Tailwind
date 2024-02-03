@@ -10,16 +10,18 @@ const Navbar = () => {
         <div className="container">
           <div className="flex justify-between items-center">
             <div className="nav__logo">
-              <picture>
-                <img src={Logo} alt={Logo} />
-              </picture>
+              <a href="#">
+                <picture>
+                  <img src={Logo} alt={Logo} />
+                </picture>
+              </a>
             </div>
             <div className="nav__menu flex  items-center gap-x-7">
               <ul className="flex items-center gap-x-6">
                 <li>
                   <a
                     href="#"
-                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear delay-150"
+                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear duration-200"
                   >
                     Home
                   </a>
@@ -27,7 +29,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear delay-150"
+                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear duration-200"
                   >
                     Our services
                   </a>
@@ -35,7 +37,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear delay-150"
+                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear duration-200"
                   >
                     About Us
                   </a>
@@ -43,7 +45,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear delay-150"
+                    className="text-graycolor text-base font-raleway font-bold hover:text-orangecolor transition ease-linear duration-200"
                   >
                     What’s new?
                   </a>
@@ -51,14 +53,14 @@ const Navbar = () => {
               </ul>
 
               <div className="nav__contact flex gap-x-2 items-center">
-                <div className="p-[13px] bg-[#FFEDC9] rounded-md">
+                <a href="#" className="p-[13px] bg-[#FFEDC9] rounded-md">
                   <IoSearchOutline className="text-2xl text-yellowcolor" />
-                </div>
+                </a>
 
                 <div>
                   <Button
                     className={
-                      "py-3 px-5 text-orangecolor bg-[#FFE4D9] text-xl font-bold font-raleway rounded-md "
+                      "py-3 px-5 text-orangecolor bg-[#FFE4D9] text-xl font-bold font-raleway rounded-md hover:bg-orangecolor hover:text-white transition ease-linear duration-150"
                     }
                   >
                     Contact us

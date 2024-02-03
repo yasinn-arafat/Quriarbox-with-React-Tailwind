@@ -13,10 +13,13 @@ export default {
         orangecolor: "#F95C19",
         graycolor: "#817382",
         yellowcolor: "#FFAF0F",
+        bodyfromcolor: "#FFF6E5",
+        bodytocolor: "#FFF7E6",
       },
     },
     fontFamily: {
       raleway: ["Raleway", "sans-serif"],
+      oxanium: ["Oxanium", "sans-serif"],
     },
   },
   plugins: [],

@@ -21,6 +21,9 @@ export default {
       raleway: ["Raleway", "sans-serif"],
       oxanium: ["Oxanium", "sans-serif"],
     },
+    content: {
+      Icon: 'url("./src/assets/Vector.png")',
+    },
   },
   plugins: [],
 };

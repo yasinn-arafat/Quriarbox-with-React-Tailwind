@@ -6,7 +6,7 @@ import BannerImg from "../../assets/bannerimage.png";
 const Banner = () => {
   return (
     <>
-      <section className="banner bg-gradient-to-r  from-bodyfromcolor to-bodytocolor py-36">
+      <section className="banner body_bgcolor py-36">
         <div className="container">
           <div className="flex justify-between">
             <div className="w-2/5  ">

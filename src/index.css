@@ -34,6 +34,10 @@
 }
 
 @layer components {
+  .body_bgcolor {
+    @apply bg-gradient-to-r from-bodyfromcolor to-bodytocolor;
+  }
+
   .icon__overlay {
     position: relative;
     z-index: 1;

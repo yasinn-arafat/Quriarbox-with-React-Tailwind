@@ -23,7 +23,7 @@ const Banner = () => {
               </p>
               <Button
                 className={
-                  "flex items-center px-5 py-3 bg-orangecolor text-white font-oxanium  font-bold text-xl rounded-md "
+                  "flex items-center px-5 py-3 bg-orangecolor text-white font-oxanium  font-bold text-xl rounded-md hover:bg-[#222132] hover:ease-linear hover:duration-200 "
                 }
               >
                 Get started <FaArrowRight className="pl-2 text-2xl " />

@@ -3,6 +3,7 @@ import Navbar from "./Component/Navbar/Navbar";
 import Banner from "./Component/Banner/Banner";
 import Services from "./Component/Services/Services";
 import Award from "./Component/Award/Award";
+import Delivery from "./Component/Delivery/Delivery";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Services />
       <Award />
+      <Delivery />
     </>
   );
 }

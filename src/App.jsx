@@ -4,6 +4,7 @@ import Banner from "./Component/Banner/Banner";
 import Services from "./Component/Services/Services";
 import Award from "./Component/Award/Award";
 import Delivery from "./Component/Delivery/Delivery";
+import Clients from "./Component/Clients/Clients";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Award />
       <Delivery />
+      <Clients />
     </>
   );
 }

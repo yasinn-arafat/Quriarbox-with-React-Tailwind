@@ -6,6 +6,7 @@ import Award from "./Component/Award/Award";
 import Delivery from "./Component/Delivery/Delivery";
 import Clients from "./Component/Clients/Clients";
 import Message from "./Component/Message/Message";
+import Contact from "./Component/Contact/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Delivery />
       <Clients />
       <Message />
+      <Contact />
     </>
   );
 }

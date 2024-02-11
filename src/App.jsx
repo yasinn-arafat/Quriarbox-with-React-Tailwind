@@ -7,6 +7,7 @@ import Delivery from "./Component/Delivery/Delivery";
 import Clients from "./Component/Clients/Clients";
 import Message from "./Component/Message/Message";
 import Contact from "./Component/Contact/Contact";
+import Subscribe from "./Component/Subscribe/Subscribe";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Clients />
       <Message />
       <Contact />
+      <Subscribe />
     </>
   );
 }

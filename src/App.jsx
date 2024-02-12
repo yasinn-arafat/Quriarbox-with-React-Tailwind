@@ -8,6 +8,7 @@ import Clients from "./Component/Clients/Clients";
 import Message from "./Component/Message/Message";
 import Contact from "./Component/Contact/Contact";
 import Subscribe from "./Component/Subscribe/Subscribe";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Message />
       <Contact />
       <Subscribe />
+      <Footer />
     </>
   );
 }

@@ -9,6 +9,7 @@ import Message from "./Component/Message/Message";
 import Contact from "./Component/Contact/Contact";
 import Subscribe from "./Component/Subscribe/Subscribe";
 import Footer from "./Component/Footer/Footer";
+import Copyright from "./Component/Copyright/Copyright";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Contact />
       <Subscribe />
       <Footer />
+      <Copyright />
     </>
   );
 }
